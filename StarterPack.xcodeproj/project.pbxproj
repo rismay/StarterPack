@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6E8F19141688E8FB0065EDE8 /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F19131688E8FB0065EDE8 /* ZUUIRevealController.m */; };
+		6E8F19171688F7E10065EDE8 /* WSRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F19161688F7E10065EDE8 /* WSRevealViewController.m */; };
+		6E8F191C168902AD0065EDE8 /* WSRearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F1919168902AD0065EDE8 /* WSRearViewController.m */; };
+		6E8F191D168902AD0065EDE8 /* WSFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F191B168902AD0065EDE8 /* WSFrontViewController.m */; };
+		6E8F1926168904400065EDE8 /* WSLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F191F1689043F0065EDE8 /* WSLogoView.m */; };
+		6E8F1927168904400065EDE8 /* WSLogoLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F1921168904400065EDE8 /* WSLogoLabel.m */; };
+		6E8F1928168904400065EDE8 /* WSColorPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F1923168904400065EDE8 /* WSColorPalette.m */; };
+		6E8F1929168904400065EDE8 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F1925168904400065EDE8 /* CircleView.m */; };
 		6EAC30AF1688BA2A00815B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC30AE1688BA2A00815B64 /* UIKit.framework */; };
 		6EAC30B11688BA2A00815B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC30B01688BA2A00815B64 /* Foundation.framework */; };
 		6EAC30B31688BA2A00815B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC30B21688BA2A00815B64 /* CoreGraphics.framework */; };
@@ -33,6 +40,20 @@
 /* Begin PBXFileReference section */
 		6E8F19121688E8FB0065EDE8 /* ZUUIRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZUUIRevealController.h; path = ../../ZUUIRevealController/ZUUIRevealController/ZUUIRevealController.h; sourceTree = "<group>"; };
 		6E8F19131688E8FB0065EDE8 /* ZUUIRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZUUIRevealController.m; path = ../../ZUUIRevealController/ZUUIRevealController/ZUUIRevealController.m; sourceTree = "<group>"; };
+		6E8F19151688F7E10065EDE8 /* WSRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRevealViewController.h; sourceTree = "<group>"; };
+		6E8F19161688F7E10065EDE8 /* WSRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRevealViewController.m; sourceTree = "<group>"; };
+		6E8F1918168902AD0065EDE8 /* WSRearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRearViewController.h; sourceTree = "<group>"; };
+		6E8F1919168902AD0065EDE8 /* WSRearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRearViewController.m; sourceTree = "<group>"; };
+		6E8F191A168902AD0065EDE8 /* WSFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSFrontViewController.h; sourceTree = "<group>"; };
+		6E8F191B168902AD0065EDE8 /* WSFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSFrontViewController.m; sourceTree = "<group>"; };
+		6E8F191E1689043F0065EDE8 /* WSLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLogoView.h; sourceTree = "<group>"; };
+		6E8F191F1689043F0065EDE8 /* WSLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLogoView.m; sourceTree = "<group>"; };
+		6E8F1920168904400065EDE8 /* WSLogoLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLogoLabel.h; sourceTree = "<group>"; };
+		6E8F1921168904400065EDE8 /* WSLogoLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLogoLabel.m; sourceTree = "<group>"; };
+		6E8F1922168904400065EDE8 /* WSColorPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSColorPalette.h; sourceTree = "<group>"; };
+		6E8F1923168904400065EDE8 /* WSColorPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSColorPalette.m; sourceTree = "<group>"; };
+		6E8F1924168904400065EDE8 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		6E8F1925168904400065EDE8 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 		6EAC30AB1688BA2A00815B64 /* StarterPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarterPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAC30AE1688BA2A00815B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EAC30B01688BA2A00815B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -81,6 +102,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E8F192A168904490065EDE8 /* WSLogo */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F191E1689043F0065EDE8 /* WSLogoView.h */,
+				6E8F191F1689043F0065EDE8 /* WSLogoView.m */,
+				6E8F1920168904400065EDE8 /* WSLogoLabel.h */,
+				6E8F1921168904400065EDE8 /* WSLogoLabel.m */,
+				6E8F1922168904400065EDE8 /* WSColorPalette.h */,
+				6E8F1923168904400065EDE8 /* WSColorPalette.m */,
+				6E8F1924168904400065EDE8 /* CircleView.h */,
+				6E8F1925168904400065EDE8 /* CircleView.m */,
+			);
+			name = WSLogo;
+			sourceTree = "<group>";
+		};
+		6E8F192B168904570065EDE8 /* WSRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				6E8F19121688E8FB0065EDE8 /* ZUUIRevealController.h */,
+				6E8F19131688E8FB0065EDE8 /* ZUUIRevealController.m */,
+				6E8F19151688F7E10065EDE8 /* WSRevealViewController.h */,
+				6E8F19161688F7E10065EDE8 /* WSRevealViewController.m */,
+				6E8F1918168902AD0065EDE8 /* WSRearViewController.h */,
+				6E8F1919168902AD0065EDE8 /* WSRearViewController.m */,
+				6E8F191A168902AD0065EDE8 /* WSFrontViewController.h */,
+				6E8F191B168902AD0065EDE8 /* WSFrontViewController.m */,
+			);
+			name = WSRevealController;
+			sourceTree = "<group>";
+		};
 		6EAC30A21688BA2900815B64 = {
 			isa = PBXGroup;
 			children = (
@@ -118,8 +169,8 @@
 				6EAC30C91688BA2A00815B64 /* MainStoryboard_iPad.storyboard */,
 				6EAC30CC1688BA2A00815B64 /* SPViewController.h */,
 				6EAC30CD1688BA2A00815B64 /* SPViewController.m */,
-				6E8F19121688E8FB0065EDE8 /* ZUUIRevealController.h */,
-				6E8F19131688E8FB0065EDE8 /* ZUUIRevealController.m */,
+				6E8F192B168904570065EDE8 /* WSRevealController */,
+				6E8F192A168904490065EDE8 /* WSLogo */,
 				6EAC30B51688BA2A00815B64 /* Supporting Files */,
 			);
 			path = StarterPack;
@@ -250,6 +301,13 @@
 				6EAC30EA1688BBE100815B64 /* ContextFilterLogFormatter.m in Sources */,
 				6EAC30EB1688BBE100815B64 /* DispatchQueueLogFormatter.m in Sources */,
 				6E8F19141688E8FB0065EDE8 /* ZUUIRevealController.m in Sources */,
+				6E8F19171688F7E10065EDE8 /* WSRevealViewController.m in Sources */,
+				6E8F191C168902AD0065EDE8 /* WSRearViewController.m in Sources */,
+				6E8F191D168902AD0065EDE8 /* WSFrontViewController.m in Sources */,
+				6E8F1926168904400065EDE8 /* WSLogoView.m in Sources */,
+				6E8F1927168904400065EDE8 /* WSLogoLabel.m in Sources */,
+				6E8F1928168904400065EDE8 /* WSColorPalette.m in Sources */,
+				6E8F1929168904400065EDE8 /* CircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

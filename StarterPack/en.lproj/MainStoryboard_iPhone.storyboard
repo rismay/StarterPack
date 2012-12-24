@@ -1,23 +1,171 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3083" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ciI-fq-5ns">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="5">
+        <!--Reveal View Controller-->
+        <scene sceneID="3yo-KK-jhf">
             <objects>
-                <viewController id="2" customClass="SPViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                <viewController id="ciI-fq-5ns" customClass="WSRevealViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mUZ-ol-Dyr">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ur-cI-B6s" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="236" y="-208"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rgh-DS-wUg">
+            <objects>
+                <viewController storyboardIdentifier="" id="7eP-Xc-nLo" customClass="SPViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ghZ-Xk-zAa">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="/home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SN-Tg-JrM">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="irs-Vn-aAY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="60"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="your home, your way" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7Y-Zd-ae0">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="eci-aj-fgH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" highlighted="YES" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hop-kC-rE7">
+                                <color key="onTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </switch>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="wrkstrm" textAlignment="right" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="RCW-T6-MTJ" customClass="WSLogoLabel">
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="36c-vY-MvA"/>
+                                    <constraint firstAttribute="width" constant="116" id="lGy-5b-mZQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please link your smart devices." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSl-Vm-wRX">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="erw-cA-h3g"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x7Y-Zd-ae0" firstAttribute="top" secondItem="2SN-Tg-JrM" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="1G0-Y3-nb8"/>
+                            <constraint firstItem="pSl-Vm-wRX" firstAttribute="leading" secondItem="ghZ-Xk-zAa" secondAttribute="leading" type="default" id="Bqa-60-kIz"/>
+                            <constraint firstAttribute="bottom" secondItem="RCW-T6-MTJ" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Wsf-Bb-LS7"/>
+                            <constraint firstItem="pSl-Vm-wRX" firstAttribute="top" secondItem="ghZ-Xk-zAa" secondAttribute="top" constant="178" id="ZyH-vr-y6W"/>
+                            <constraint firstItem="RCW-T6-MTJ" firstAttribute="centerX" secondItem="hop-kC-rE7" secondAttribute="centerX" type="default" id="gO1-Uq-Q9p"/>
+                            <constraint firstItem="x7Y-Zd-ae0" firstAttribute="leading" secondItem="ghZ-Xk-zAa" secondAttribute="leading" type="default" id="iJ7-2a-RkK"/>
+                            <constraint firstItem="pSl-Vm-wRX" firstAttribute="trailing" secondItem="ghZ-Xk-zAa" secondAttribute="trailing" type="default" id="jOz-pX-Xhe"/>
+                            <constraint firstItem="x7Y-Zd-ae0" firstAttribute="trailing" secondItem="ghZ-Xk-zAa" secondAttribute="trailing" type="default" id="obp-XM-Fbo"/>
+                            <constraint firstItem="pSl-Vm-wRX" firstAttribute="centerX" secondItem="hop-kC-rE7" secondAttribute="centerX" type="default" id="r58-5r-qVH"/>
+                            <constraint firstItem="2SN-Tg-JrM" firstAttribute="leading" secondItem="ghZ-Xk-zAa" secondAttribute="leading" type="default" id="r6r-St-gbM"/>
+                            <constraint firstItem="2SN-Tg-JrM" firstAttribute="top" secondItem="ghZ-Xk-zAa" secondAttribute="top" constant="40" id="soN-a7-aeZ"/>
+                            <constraint firstItem="hop-kC-rE7" firstAttribute="top" secondItem="pSl-Vm-wRX" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="xBa-CI-mtW"/>
+                            <constraint firstItem="2SN-Tg-JrM" firstAttribute="trailing" secondItem="ghZ-Xk-zAa" secondAttribute="trailing" type="default" id="yIJ-HD-kgK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CAO-oj-vNd"/>
+                    <connections>
+                        <outlet property="smallLabel" destination="RCW-T6-MTJ" id="yOD-66-1w6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gWQ-Lb-1TY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1149" y="277"/>
+        </scene>
+        <!--Rear View Controller-->
+        <scene sceneID="VWN-GN-b0X">
+            <objects>
+                <viewController storyboardIdentifier="" id="5nI-3B-Wpu" customClass="WSRearViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MsZ-Lp-jpo">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YJM-dL-eSw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iLC-98-c10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1215" y="-646"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w3I-2o-vnd">
+            <objects>
+                <navigationController storyboardIdentifier="FrontNavigationController" navigationBarHidden="YES" id="KP6-iL-lfp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pab-4U-SF0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7eP-Xc-nLo" kind="relationship" relationship="rootViewController" id="aAp-IA-ZKr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pe3-aJ-Zgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="689" y="277"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1ZE-9O-LIr">
+            <objects>
+                <navigationController storyboardIdentifier="RearNavigationController" id="kzw-bR-ITt" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Rk-7F-StC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5nI-3B-Wpu" kind="relationship" relationship="rootViewController" id="igf-Zr-e6F"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="40X-5w-RYD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="689" y="-646"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="SPViewController" superclassName="ZUUIFrontViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SPViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="smallLabel" candidateClass="WSLogoLabel"/>
+            </relationships>
+        </class>
+        <class className="WSLogoLabel" superclassName="UILabel">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WSLogoLabel.h"/>
+        </class>
+        <class className="WSRevealViewController" superclassName="ZUUIRevealController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/WSRevealViewController.h"/>
+        </class>
+        <class className="ZUUIRevealController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ZUUIRevealController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="frontViewController" candidateClass="UIViewController"/>
+                <relationship kind="outlet" name="rearViewController" candidateClass="UIViewController"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

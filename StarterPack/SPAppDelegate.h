@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DDLog.h"
+
+// Log levels: off, error, warn, info, verbose
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
 
 @interface SPAppDelegate : UIResponder <UIApplicationDelegate>
 

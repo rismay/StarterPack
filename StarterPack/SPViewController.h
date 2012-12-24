@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface SPViewController : UIViewController
+#import "WSFrontViewController.h"
+@interface SPViewController : WSFrontViewController
 
 @end
