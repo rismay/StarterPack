@@ -40,8 +40,11 @@
 		self.frontPresentedController =   self.frontViewController;
 		
 		//Don't know why this has to go here but it does.
-		UIPanGestureRecognizer *navigationPanGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(revealGesture:)];
-		[tempFrontController.navigationBar addGestureRecognizer:navigationPanGesture];
+		UIPanGestureRecognizer *navigationPanGestureTop = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(revealGesture:)];
+		[tempFrontController.navigationBar addGestureRecognizer:navigationPanGestureTop];
+		
+		UIPanGestureRecognizer *navigationPanGestureBottom = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(revealGesture:)];
+		[tempFrontController.toolbar addGestureRecognizer:navigationPanGestureBottom];
 		
 		NSLog(@"ZUUIRC:initWithCoder:MID01 FNavVC = %@, FPresVC = %@", self.frontViewController.debugDescription,  self.frontPresentedController.debugDescription);
 		
@@ -121,7 +124,7 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+	[super viewDidLoad];
 #if __has_feature(objc_arc)
 	self.invisibleFrontView = [[UIView alloc] initWithFrame:self.view.bounds];
 #else
@@ -133,15 +136,15 @@
 	self.invisibleFrontView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
 	UIPanGestureRecognizer *invisiblePanGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(revealGesture:)];
 	[self.invisibleFrontView addGestureRecognizer:invisiblePanGesture];
-
+	
 	//Custom Add
 	[self.self.frontViewController.view insertSubview:self.invisibleFrontView aboveSubview:self.frontViewController.view];
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+	[super didReceiveMemoryWarning];
+	// Dispose of any resources that can be recreated.
 }
 
 @end

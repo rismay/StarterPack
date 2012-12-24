@@ -43,7 +43,7 @@
 - (void) showNavigationController {
 	DDLogVerbose(@"SHVC:showNavigationController:BEGIN NavigationController: %@",self.navigationController.debugDescription);
 	self.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
-	self.navigationController.toolbar.barStyle = UIBarStyleBlackTranslucent;
+	self.navigationController.toolbar.barStyle = UIBarStyleBlackOpaque;
 	[self.navigationController setNavigationBarHidden:NO animated:NO];
 	[self.navigationController setToolbarHidden:NO animated:NO];
 }

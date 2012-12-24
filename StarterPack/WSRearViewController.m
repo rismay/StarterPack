@@ -49,12 +49,12 @@
 - (id)initWithCoder:(NSCoder *)aDecoder {
 	self = [super initWithCoder:aDecoder];
 	if (self) {
-		// Custom initialization
-		self.navigationItem.title = @"Configure Sync";
 		self.appDelegate = [[UIApplication sharedApplication]delegate];
 		
-		UIBarButtonItem* purgeButton = [[UIBarButtonItem alloc] initWithTitle: @"Done" style:UIBarButtonItemStyleDone target: self action: @selector(done:)];
-		self.navigationItem.leftBarButtonItem = purgeButton;
+		// Custom initialization aka:
+		//self.navigationItem.title = @"Configure Sync";
+		//UIBarButtonItem* purgeButton = [[UIBarButtonItem alloc] initWithTitle: @"Done" style:UIBarButtonItemStyleDone target: self action: @selector(done:)];
+		//self.navigationItem.leftBarButtonItem = purgeButton;
 	}
 	return self;
 }
