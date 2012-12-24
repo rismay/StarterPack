@@ -7,12 +7,23 @@
 //
 
 #import "SPViewController.h"
+#import "SPAppDelegate.h"
 
 @interface SPViewController ()
 
 @end
 
 @implementation SPViewController
+
+- (id) initWithCoder:(NSCoder *)aDecoder {
+	self = [super initWithCoder:aDecoder];
+	if (self) {
+		[((SPAppDelegate *) [[UIApplication sharedApplication] delegate]) application: [UIApplication sharedApplication]
+		 willBeginLaunchingWithViewController:self];
+		
+	}
+	return self;
+}
 
 - (void)viewDidLoad
 {

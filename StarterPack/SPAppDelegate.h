@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (BOOL)application:(UIApplication *)application willBeginLaunchingWithViewController:(UIViewController *)viewController;
+
 @end
