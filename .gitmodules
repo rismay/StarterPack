@@ -1,3 +1,6 @@
 [submodule "CocoaLumberjack"]
 	path = CocoaLumberjack
 	url = git@github.com:robbiehanson/CocoaLumberjack.git
+[submodule "ZUUIRevealController"]
+	path = ZUUIRevealController
+	url = git@github.com:pkluz/ZUUIRevealController.git

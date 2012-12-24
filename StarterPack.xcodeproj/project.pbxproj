@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E8F19141688E8FB0065EDE8 /* ZUUIRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8F19131688E8FB0065EDE8 /* ZUUIRevealController.m */; };
 		6EAC30AF1688BA2A00815B64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC30AE1688BA2A00815B64 /* UIKit.framework */; };
 		6EAC30B11688BA2A00815B64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC30B01688BA2A00815B64 /* Foundation.framework */; };
 		6EAC30B31688BA2A00815B64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAC30B21688BA2A00815B64 /* CoreGraphics.framework */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E8F19121688E8FB0065EDE8 /* ZUUIRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZUUIRevealController.h; path = ../../ZUUIRevealController/ZUUIRevealController/ZUUIRevealController.h; sourceTree = "<group>"; };
+		6E8F19131688E8FB0065EDE8 /* ZUUIRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZUUIRevealController.m; path = ../../ZUUIRevealController/ZUUIRevealController/ZUUIRevealController.m; sourceTree = "<group>"; };
 		6EAC30AB1688BA2A00815B64 /* StarterPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarterPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAC30AE1688BA2A00815B64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EAC30B01688BA2A00815B64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -115,6 +118,8 @@
 				6EAC30C91688BA2A00815B64 /* MainStoryboard_iPad.storyboard */,
 				6EAC30CC1688BA2A00815B64 /* SPViewController.h */,
 				6EAC30CD1688BA2A00815B64 /* SPViewController.m */,
+				6E8F19121688E8FB0065EDE8 /* ZUUIRevealController.h */,
+				6E8F19131688E8FB0065EDE8 /* ZUUIRevealController.m */,
 				6EAC30B51688BA2A00815B64 /* Supporting Files */,
 			);
 			path = StarterPack;
@@ -244,6 +249,7 @@
 				6EAC30E91688BBE100815B64 /* DDTTYLogger.m in Sources */,
 				6EAC30EA1688BBE100815B64 /* ContextFilterLogFormatter.m in Sources */,
 				6EAC30EB1688BBE100815B64 /* DispatchQueueLogFormatter.m in Sources */,
+				6E8F19141688E8FB0065EDE8 /* ZUUIRevealController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +344,7 @@
 		6EAC30D21688BA2A00815B64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StarterPack/StarterPack-Prefix.pch";
 				INFOPLIST_FILE = "StarterPack/StarterPack-Info.plist";
@@ -351,6 +358,7 @@
 		6EAC30D31688BA2A00815B64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StarterPack/StarterPack-Prefix.pch";
 				INFOPLIST_FILE = "StarterPack/StarterPack-Info.plist";
@@ -380,6 +388,7 @@
 				6EAC30D31688BA2A00815B64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
